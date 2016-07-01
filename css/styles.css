@@ -31,11 +31,12 @@ body {
 .description-header {
     font-weight: 200;
 }
-.pricingtable {
+.pricingtable  {
     position: relative;
     height: 100%;
     width: 100%;
     padding: 5px 0 10px 0;
+
 }
 
 
@@ -61,4 +62,9 @@ text-align: right;
 .caption {
 background-color: lightgray;
 
+}
+
+.pricingtable table  {
+  col:first-child {background: #FF0}
+  col:nth-child(2n+3) {background: #CCC}
 }
