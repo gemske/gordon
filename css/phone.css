@@ -1,0 +1,15 @@
+/* phone */
+
+@media screen and (max-width: 768px) {
+    .scroll {
+        overflow-x: auto;
+        overflow-y: hidden;
+    }
+    .listcontrols {
+        display: none;
+    }
+    .productimage img>a {
+max-width: 70%;
+
+    }
+}

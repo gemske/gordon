@@ -1,0 +1,46 @@
+.chair-selector> ul> a> img {
+    width: 30%;
+    height: auto;
+}
+ul {
+    list-style: none;
+}
+.scroll {
+    height: 650px;
+    overflow-y: scroll;
+}
+.moreinfo {
+    align-content: : right;
+}
+.imageheader img {
+    width: 100%;
+    height: auto;
+    padding: 30px 0 30px 0;
+}
+.justify {
+    text-align: justify;
+}
+.producttitle {
+    text-align: center;
+    font-stretch: expanded;
+    padding: 5px 0 10px 0;
+}
+body {
+    font-family: 'Ubuntu Condensed', sans-serif;
+}
+.description-header {
+    font-weight: 200;
+}
+.pricingtable {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    padding: 5px 0 10px 0;
+}
+
+.modal-image {
+  position: relative;
+  height: 100%;
+  width: 100%;
+
+}
