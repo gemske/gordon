@@ -10,7 +10,7 @@ ul {
     overflow-y: scroll;
 }
 .moreinfo {
-    align-content: : right;
+    align-content: right;
 }
 .imageheader img {
     width: 100%;
@@ -64,7 +64,38 @@ background-color: lightgray;
 
 }
 
-.pricingtable table  {
-  col:first-child {background: #FF0}
-  col:nth-child(2n+3) {background: #CCC}
+.pricingtable tr:nth-child(odd) {
+background: #CCC;
+}
+
+.pricingtable tr:first-child {
+background:  #666666;
+}
+
+
+.modal-image img{
+width: 50%;
+
+}
+
+.modal-header h2{
+text-align: center;
+
+}
+
+.social-icons td {
+  padding:10px;
+}
+
+.pricingtable td, th {
+  text-align: center;
+}
+
+.imgheader img {
+  width:100%;
+}
+
+.modal-body li {
+list-style-type: circle;
+
 }
