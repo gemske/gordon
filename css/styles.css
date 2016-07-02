@@ -99,3 +99,9 @@ text-align: center;
 list-style-type: circle;
 
 }
+
+.footercenter {
+text-align: center;}
+
+.footercenter img a{
+padding-bottom: 5px}
