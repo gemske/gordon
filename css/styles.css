@@ -39,7 +39,14 @@ body {
 
 }
 
+.cert img.center {
+    display: block;
+    margin: 0 auto;
+}
 
+.cert {
+  padding: 10px 0 0 0;
+}
 
 .modal-image {
   position: relative;
