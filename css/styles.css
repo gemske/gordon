@@ -125,3 +125,11 @@ padding-bottom: 5px}
     width: 90%;
     margin: auto;
   }}
+
+.trcolor th{
+color: #FFFFFF;
+
+  }
+
+.navbar-brand {
+      padding: 0;
