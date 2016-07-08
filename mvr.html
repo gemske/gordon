@@ -15,9 +15,10 @@
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="css/styles.css">
+
     <link rel="stylesheet" type="text/css" href="css/productgrid.css">
     <link rel="stylesheet" type="text/css" href="css/phone.css">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
     <link href="https://fonts.googleapis.com/css?family=Play" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Bungee+Shade" rel="stylesheet">
     <style>
@@ -31,6 +32,11 @@
             color: #BCB3AE;
             font-size: 11px;
             line-height: 15px;
+        }
+
+        .carousel-inner img {
+            max-height: 600px;
+            width: auto;
         }
     </style>
 
@@ -163,356 +169,157 @@
         </div>
 
         <div class="imageheader row">
-            <div id="myCarousel" class="carousel slide" data-ride="carousel">
-                <!-- Indicators -->
-                <ol class="carousel-indicators">
-                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                    <li data-target="#myCarousel" data-slide-to="1"></li>
-                    <li data-target="#myCarousel" data-slide-to="2"></li>
-                    <li data-target="#myCarousel" data-slide-to="3"></li>
-                    <li data-target="#myCarousel" data-slide-to="4"></li>
-                    <li data-target="#myCarousel" data-slide-to="5"></li>
-                </ol>
+            <center>
+                <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#myCarousel" data-slide-to="1"></li>
+                        <li data-target="#myCarousel" data-slide-to="2"></li>
+                        <li data-target="#myCarousel" data-slide-to="3"></li>
+                        <li data-target="#myCarousel" data-slide-to="4"></li>
+                        <li data-target="#myCarousel" data-slide-to="5"></li>
+                        <li data-target="#myCarousel" data-slide-to="6"></li>
+                    </ol>
 
-                <!-- Wrapper for slides -->
-                <div class="carousel-inner" role="listbox">
-                    <div class="item active">
-                        <img src="imgs/mvr/mvrslide1.jpg" alt="1">
-                    </div>
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner" role="listbox">
+                        <div class="item active">
+                            <img src="imgs/mvr/mies.jpg" alt="1">
+                        </div>
+                        <div class="item">
+                            <img src="imgs/mvr/mvrslide1.jpg" alt="1">
+                        </div>
 
-                    <div class="item">
-                        <img src="imgs/mvr/mvrslide2.jpg" alt="2">
-                    </div>
+                        <div class="item">
+                            <img src="imgs/mvr/mvrslide2.jpg" alt="2">
+                        </div>
 
-                    <div class="item">
-                        <img src="imgs/mvr/mvrslide3.jpg" alt="3">
-                    </div>
-                    <div class="item">
-                        <img src="imgs/mvr/mvrslide4.jpg" alt="4">
-                    </div>
-                    <div class="item">
-                        <img src="imgs/mvr/mvrslide5.jpg" alt="5">
+                        <div class="item">
+                            <img src="imgs/mvr/mvrslide3.jpg" alt="3">
+                        </div>
+                        <div class="item">
+                            <img src="imgs/mvr/mvrslide4.jpg" alt="4">
+                        </div>
+                        <div class="item">
+                            <img src="imgs/mvr/mvrslide5.jpg" alt="5">
+                        </div>
                     </div>
                 </div>
-            </div>
+            </center>
         </div>
-        <div class="container">
-            <div class="well well-sm">
-                <strong>Display</strong>
-                <div class="btn-group">
-                    <a href="#" id="list" class="btn btn-default btn-sm"><span class="glyphicon glyphicon-th-list">
-                    </span>List</a> <a href="#" id="grid" class="btn btn-default btn-sm"><span
-                        class="glyphicon glyphicon-th"></span>Grid</a>
-                </div>
-            </div>
-            <div id="products" class="row list-group">
-
-                <!-- START -->
-                <div class="item  col-xs-4 col-lg-4">
-                    <div class="thumbnail">
-                        <img class="group list-group-image" src="imgs/modernclassics/501.jpg" alt="" />
-                        <div class="caption">
-                            <h4 class="group inner list-group-item-heading">
-                                Product title</h4>
-                            <p class="group inner list-group-item-text">
-                                <div class="row">
-                                    <div class="col-xs-12 col-md-6">
-
-                                    </div>
-                                    <div class="col-xs-12 col-md-6">
-
-                                    </div>
-                                </div>
-                        </div>
-                    </div>
-                </div>
-                <!----END-->
-                <!-- START -->
-                <div class="item  col-xs-4 col-lg-4">
-                    <div class="thumbnail">
-                        <img class="group list-group-image" src="imgs/modernclassics/502503.jpg" alt="" />
-                        <div class="caption">
-                            <h4 class="group inner list-group-item-heading">
-                                Product title</h4>
-                            <p class="group inner list-group-item-text">
-                                <div class="row">
-                                    <div class="col-xs-12 col-md-6">
-
-                                    </div>
-                                    <div class="col-xs-12 col-md-6">
-
-                                    </div>
-                                </div>
-                        </div>
-                    </div>
-                </div>
-                <!----END-->
-                <!-- START -->
-                <div class="item  col-xs-4 col-lg-4">
-                    <div class="thumbnail">
-                        <img class="group list-group-image" src="imgs/modernclassics/504.jpg" alt="" />
-                        <div class="caption">
-                            <h4 class="group inner list-group-item-heading">
-                                Product title</h4>
-                            <p class="group inner list-group-item-text">
-                                <div class="row">
-                                    <div class="col-xs-12 col-md-6">
-
-                                    </div>
-                                    <div class="col-xs-12 col-md-6">
-
-                                    </div>
-                                </div>
-                        </div>
-                    </div>
-                </div>
-                <!----END-->
-                <!-- START -->
-                <div class="item  col-xs-4 col-lg-4">
-                    <div class="thumbnail">
-                        <img class="group list-group-image" src="imgs/modernclassics/500.jpg" alt="" />
-                        <div class="caption">
-                            <h4 class="group inner list-group-item-heading">
-                                Product title</h4>
-                            <p class="group inner list-group-item-text">
-                                <div class="row">
-                                    <div class="col-xs-12 col-md-6">
-
-                                    </div>
-                                    <div class="col-xs-12 col-md-6">
-
-                                    </div>
-                                </div>
-                        </div>
-                    </div>
-                </div>
-                <!----END-->
-                <!-- START -->
-                <div class="item  col-xs-4 col-lg-4">
-                    <div class="thumbnail">
-                        <img class="group list-group-image" src="imgs/modernclassics/596.jpg" alt="" />
-                        <div class="caption">
-                            <h4 class="group inner list-group-item-heading">
-                                Product title</h4>
-                            <p class="group inner list-group-item-text">
-                                <div class="row">
-                                    <div class="col-xs-12 col-md-6">
-
-                                    </div>
-                                    <div class="col-xs-12 col-md-6">
-
-                                    </div>
-                                </div>
-                        </div>
-                    </div>
-                </div>
-                <!----END-->
-                <!-- START -->
-                <div class="item  col-xs-4 col-lg-4">
-                    <div class="thumbnail">
-                        <img class="group list-group-image" src="imgs/modernclassics/597.jpg" alt="" />
-                        <div class="caption">
-                            <h4 class="group inner list-group-item-heading">
-                                Product title</h4>
-                            <p class="group inner list-group-item-text">
-                                <div class="row">
-                                    <div class="col-xs-12 col-md-6">
-
-                                    </div>
-                                    <div class="col-xs-12 col-md-6">
-
-                                    </div>
-                                </div>
-                        </div>
-                    </div>
-                </div>
-                <!----END-->
-                <!-- START -->
-                <div class="item  col-xs-4 col-lg-4">
-                    <div class="thumbnail">
-                        <img class="group list-group-image" src="imgs/modernclassics/598.jpg" alt="" />
-                        <div class="caption">
-                            <h4 class="group inner list-group-item-heading">
-                                Product title</h4>
-                            <p class="group inner list-group-item-text">
-                                <div class="row">
-                                    <div class="col-xs-12 col-md-6">
-
-                                    </div>
-                                    <div class="col-xs-12 col-md-6">
-
-                                    </div>
-                                </div>
-                        </div>
-                    </div>
-                </div>
-                <!----END-->
-                <!-- START -->
-                <div class="item  col-xs-4 col-lg-4">
-                    <div class="thumbnail">
-                        <img class="group list-group-image" src="imgs/modernclassics/599.jpg" alt="" />
-                        <div class="caption">
-                            <h4 class="group inner list-group-item-heading">
-                                Product title</h4>
-                            <p class="group inner list-group-item-text">
-                                <div class="row">
-                                    <div class="col-xs-12 col-md-6">
-
-                                    </div>
-                                    <div class="col-xs-12 col-md-6">
-
-                                    </div>
-                                </div>
-                        </div>
-                    </div>
-                </div>
-                <!----END-->
-                <!-- START -->
-                <div class="item  col-xs-4 col-lg-4">
-                    <div class="thumbnail">
-                        <img class="group list-group-image" src="imgs/modernclassics/622.jpg" alt="" />
-                        <div class="caption">
-                            <h4 class="group inner list-group-item-heading">
-                                Product title</h4>
-                            <p class="group inner list-group-item-text">
-                                <div class="row">
-                                    <div class="col-xs-12 col-md-6">
-
-                                    </div>
-                                    <div class="col-xs-12 col-md-6">
-
-                                    </div>
-                                </div>
-                        </div>
-                    </div>
-                </div>
-                <!----END-->
-                <!-- START -->
-                <div class="item  col-xs-4 col-lg-4">
-                    <div class="thumbnail">
-                        <img class="group list-group-image" src="imgs/modernclassics/913.jpg" alt="" />
-                        <div class="caption">
-                            <h4 class="group inner list-group-item-heading">
-                                Product title</h4>
-                            <p class="group inner list-group-item-text">
-                                <div class="row">
-                                    <div class="col-xs-12 col-md-6">
-
-                                    </div>
-                                    <div class="col-xs-12 col-md-6">
-
-                                    </div>
-                                </div>
-                        </div>
-                    </div>
-                </div>
-                <!----END-->
-                <!-- START -->
-                <div class="item  col-xs-4 col-lg-4">
-                    <div class="thumbnail">
-                        <img class="group list-group-image" src="imgs/modernclassics/914.jpg" alt="" />
-                        <div class="caption">
-                            <h4 class="group inner list-group-item-heading">
-                                Product title</h4>
-                            <p class="group inner list-group-item-text">
-                                <div class="row">
-                                    <div class="col-xs-12 col-md-6">
-
-                                    </div>
-                                    <div class="col-xs-12 col-md-6">
-
-                                    </div>
-                                </div>
-                        </div>
-                    </div>
-                </div>
-                <!----END-->
-                <!-- START -->
-                <div class="item  col-xs-4 col-lg-4">
-                    <div class="thumbnail">
-                        <img class="group list-group-image" src="imgs/modernclassics/915.jpg" alt="" />
-                        <div class="caption">
-                            <h4 class="group inner list-group-item-heading">
-                                Product title</h4>
-                            <p class="group inner list-group-item-text">
-                                <div class="row">
-                                    <div class="col-xs-12 col-md-6">
-
-                                    </div>
-                                    <div class="col-xs-12 col-md-6">
-
-                                    </div>
-                                </div>
-                        </div>
-                    </div>
-                </div>
-                <!----END-->
-                <!-- START -->
-                <div class="item  col-xs-4 col-lg-4">
-                    <div class="thumbnail">
-                        <img class="group list-group-image" src="imgs/modernclassics/916.jpg" alt="" />
-                        <div class="caption">
-                            <h4 class="group inner list-group-item-heading">
-                                Product title</h4>
-                            <p class="group inner list-group-item-text">
-                                <div class="row">
-                                    <div class="col-xs-12 col-md-6">
-
-                                    </div>
-                                    <div class="col-xs-12 col-md-6">
-
-                                    </div>
-                                </div>
-                        </div>
-                    </div>
-                </div>
-                <!----END-->
-                <!-- START -->
-                <div class="item  col-xs-4 col-lg-4">
-                    <div class="thumbnail">
-                        <img class="group list-group-image" src="imgs/modernclassics/918.jpg" alt="" />
-                        <div class="caption">
-                            <h4 class="group inner list-group-item-heading">
-                                Product title</h4>
-                            <p class="group inner list-group-item-text">
-                                <div class="row">
-                                    <div class="col-xs-12 col-md-6">
-
-                                    </div>
-                                    <div class="col-xs-12 col-md-6">
-
-                                    </div>
-                                </div>
-                        </div>
-                    </div>
-                </div>
-                <!----END-->
-                <!-- START -->
-                <div class="item  col-xs-4 col-lg-4">
-                    <div class="thumbnail">
-                        <img class="group list-group-image" src="imgs/modernclassics/91625.jpg" alt="" />
-                        <div class="caption">
-                            <h4 class="group inner list-group-item-heading">
-                                Product title</h4>
-                            <p class="group inner list-group-item-text">
-                                <div class="row">
-                                    <div class="col-xs-12 col-md-6">
-
-                                    </div>
-                                    <div class="col-xs-12 col-md-6">
-
-                                    </div>
-                                </div>
-                        </div>
-                    </div>
-                </div>
-                <!----END-->
-            </div>
+        <div class="row">
+            Considered one of the most influential architects of the 20th century, Mies Van der Rohe had no formal architectural training. His early years were spent developing a keen intuitive sense under the tutelage of his father, a master mason. He landed a job
+            as a stucco designer for a local builder, and there learned the craft of draftsmanship. But his first real inspiration surfaced in 1905 when he went to Berlin and took a job with a minor architect. He was fortunate to be apprenticed to the
+            famed furniture designer, Bruno Paul, and subsequently joined Peter Behrens, considered the prototypical industrial designer of the 20th century.Here Mies’ creativity flourished.
         </div>
+        <hr>
+        <ul id="rig">
+
+            <li>
+                <a class="rig-cell" href="#">
+                    <img class="rig-img" src="imgs/mvr/501.jpg">
+                    <span class="rig-overlay"></span>
+                    <span class="rig-text">Brno Barstock Arm Chair</span>
+                </a>
+            </li>
+            <li>
+                <a class="rig-cell" href="#">
+                    <img class="rig-img" src="imgs/mvr/502503.JPG">
+                    <span class="rig-overlay"></span>
+                    <span class="rig-text">MVR Counter and Bar Stools</span>
+                </a>
+            </li>
+            <li>
+                <a class="rig-cell" href="#">
+                    <img class="rig-img" src="imgs/mvr/504.jpg">
+                    <span class="rig-overlay"></span>
+                    <span class="rig-text">Brno Tubular Arm Chair</span>
+                </a>
+            </li>
+            <li>
+                <a class="rig-cell" href="#">
+                    <img class="rig-img" src="imgs/mvr/599.jpg">
+                    <span class="rig-overlay"></span>
+                    <span class="rig-text">Sed et nunc luctus</span>
+                </a>
+            </li>
+            <li>
+                <a class="rig-cell" href="#">
+                    <img class="rig-img" src="imgs/mvr/596.jpg">
+                    <span class="rig-overlay"></span>
+                    <span class="rig-text">Suspendisse tellus</span>
+                </a>
+            </li>
+            <li>
+                <a class="rig-cell" href="#">
+                    <img class="rig-img" src="imgs/mvr/597.jpg">
+                    <span class="rig-overlay"></span>
+                    <span class="rig-text">pellentesque odio</span>
+                </a>
+            </li>
+            <li>
+                <a class="rig-cell" href="#">
+                    <img class="rig-img" src="imgs/mvr/598.jpg">
+                    <span class="rig-overlay"></span>
+                    <span class="rig-text">Nam euismod</span>
+                </a>
+            </li>
+            <li>
+                <a class="rig-cell" href="#">
+                    <img class="rig-img" src="imgs/mvr/622.jpg">
+                    <span class="rig-overlay"></span>
+                    <span class="rig-text">Vestibulum ultricies</span>
+                </a>
+            </li>
+            <li>
+                <a class="rig-cell" href="#">
+                    <img class="rig-img" src="imgs/mvr/913.jpg">
+                    <span class="rig-overlay"></span>
+                    <span class="rig-text">quis interdum sapien</span>
+                </a>
+            </li>
+            <li>
+                <a class="rig-cell" href="#">
+                    <img class="rig-img" src="imgs/mvr/914.jpg">
+                    <span class="rig-overlay"></span>
+                    <span class="rig-text">Maecenas vitae</span>
+                </a>
+            </li>
+            <li>
+                <a class="rig-cell" href="#">
+                    <img class="rig-img" src="imgs/mvr/915.jpg">
+                    <span class="rig-overlay"></span>
+                    <span class="rig-text">Proin Scelerisque</span>
+                </a>
+            </li>
+            <li>
+                <a class="rig-cell" href="#">
+                    <img class="rig-img" src="imgs/mvr/916.jpg">
+                    <span class="rig-overlay"></span>
+                    <span class="rig-text">Proin Scelerisque</span>
+                </a>
+            </li>
+            <li>
+                <a class="rig-cell" href="#">
+                    <img class="rig-img" src="imgs/mvr/918.jpg">
+                    <span class="rig-overlay"></span>
+                    <span class="rig-text">Proin Scelerisque</span>
+                </a>
+            </li>
+            <li>
+                <a class="rig-cell" href="#">
+                    <img class="rig-img" src="imgs/mvr/91625.jpg">
+                    <span class="rig-overlay"></span>
+                    <span class="rig-text">Proin Scelerisque</span>
+                </a>
+            </li>
+        </ul>
+    </div>
 
 
-        <br>
-        <br> Gordon Intl ©Copyright 2016 All Rights Reserved
+    <br>
+    <br> Gordon Intl ©Copyright 2016 All Rights Reserved
 
 
     </div>

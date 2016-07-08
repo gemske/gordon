@@ -1,155 +1,221 @@
-.chair-selector> ul> a> img {
-    width: 30%;
-    height: auto;
-}
-ul {
-    list-style: none;
-}
-.scroll {
-    height: 650px;
-    overflow-y: scroll;
-}
-.moreinfo {
-    align-content: right;
-}
-.imageheader img {
-    width: 100%;
-    height: auto;
-    padding: 30px 0 30px 0;
-}
-.justify {
-    text-align: justify;
-}
-.producttitle {
-    text-align: center;
-    font-stretch: expanded;
-    padding: 5px 0 10px 0;
-}
-body {
-    font-family: 'Play', sans-serif;
-    font-size: 16px;
-}
+        .chair-selector> ul> a> img {
+            width: 30%;
+            height: auto;
+        }
+        ul {
+            list-style: none;
+        }
+        .scroll {
+            height: 650px;
+            overflow-y: scroll;
+        }
+        .moreinfo {
+            align-content: right;
+        }
+        .imageheader img {
+            width: 100%;
+            height: auto;
+            padding: 30px 0 30px 0;
+        }
+        .justify {
+            text-align: justify;
+        }
+        .producttitle {
+            text-align: center;
+            font-stretch: expanded;
+            padding: 5px 0 10px 0;
+        }
+        body {
+            font-family: 'Play', sans-serif;
+            font-size: 16px;
+        }
+        .description-header {
+            font-weight: 200;
+        }
+        .pricingtable {
+            position: relative;
+            height: 100%;
+            width: 100%;
+            padding: 5px 0 10px 0;
+        }
+        .cert img.center {
+            display: block;
+            margin: 0 auto;
+        }
+        .cert {
+            padding: 10px 0 0 0;
+        }
+        .modal-image {
+            position: relative;
+            height: 100%;
+            width: 100%;
+        }
+        .searchbar form {
+            text-align: right;
+        }
+        .thumbnail {
+            border: 0;
+        }
+        .caption {
+            background-color: lightgray;
+        }
+        .pricingtable tr:nth-child(odd) {
+            background: #CCC;
+        }
+        .pricingtable tr:first-child {
+            background: #666666;
+        }
+        .modal-image img {
+            width: 50%;
+        }
+        .modal-header h2 {
+            text-align: center;
+        }
+        .social-icons td {
+            padding: 10px;
+        }
+        .pricingtable td, th {
+            text-align: center;
+        }
+        .imgheader img {
+            max-height: 250px;
+        }
+        .modal-body li {
+            list-style-type: circle;
+        }
+        .footercenter {
+            text-align: center;
+        }
+        .footercenter img a {
+            padding-bottom: 5px
+        }
+        .centered {
+            padding: 0 25px 0 25px;
+        }
+        @media (min-width: 768px) {
+            .modal-dialog {
+                width: 90%;
+                margin: auto;
+            }
+        }
+        .trcolor th {
+            color: #FFFFFF;
+        }
+        .well {
+            min-height: 20px;
+            padding: 19px;
+            margin-bottom: 20px;
+            background-color: #FFFFFF;
+            border: 0px solid #FFFFFF;
+            box-shadow: 0;
+        }
 
 
-.description-header {
-    font-weight: 200;
-}
-.pricingtable  {
-    position: relative;
-    height: 100%;
-    width: 100%;
-    padding: 5px 0 10px 0;
+        .rig-text {font-size:14px;}
 
-}
+   #rig {
+       max-width:900px;
+       margin:0 auto; /*center aligned*/
+       padding:0;
+       font-size:0; /* Remember to change it back to normal font size if have captions */
+       list-style:none;
+       background-color:#000;
+   }
+   #rig li {
+       display: inline-block;
+       *display:inline;/*for IE6 - IE7*/
+       width:25%;
+       vertical-align:middle;
+       box-sizing:border-box;
+       margin:0;
+       padding:0;
+   }
 
-.cert img.center {
-    display: block;
-    margin: 0 auto;
-}
+   /* The wrapper for each item */
+   .rig-cell {
+       /*margin:12px;
+       box-shadow:0 0 6px rgba(0,0,0,0.3);*/
+       display:block;
+       position: relative;
+       overflow:hidden;
+   }
 
-.cert {
-  padding: 10px 0 0 0;
-}
+   /* If have the image layer */
+   .rig-img {
+       display:block;
+       width: 100%;
+       height: auto;
+       border:none;
+       transform:scale(1);
+       transition:all 1s;
+   }
 
-.modal-image {
-  position: relative;
-  height: 100%;
-  width: 100%;
+   #rig li:hover .rig-img {
+       transform:scale(1.05);
+   }
 
+   /* If have the overlay layer */
+   .rig-overlay {
+       position: absolute;
+       display:block;
+       top: 0;
+       left: 0;
+       bottom: 0;
+       right: 0;
+       margin: auto;
+       background: #3DC0F1 url(img/link.png) no-repeat center 20%;
+       background-size:50px 50px;
+       opacity:0;
+       filter:alpha(opacity=0);/*For IE6 - IE8*/
+       transition:all 0.6s;
+   }
+   #rig li:hover .rig-overlay {
+       opacity:0.8;
+   }
 
-}
+   /* If have captions */
+   .rig-text {
+       display:block;
+       padding:0 30px;
+       box-sizing:border-box;
+       position:absolute;
+       left:0;
+       width:100%;
+       text-align:center;
+       text-transform:capitalize;
+       font-size:18px;
+       font-weight:bold;
+       font-family: 'Oswald', sans-serif;
+       font-weight:normal!important;
+       top:40%;
+       color:white;
+       opacity:0;
+       filter:alpha(opacity=0);/*For older IE*/
+       transform:translateY(-20px);
+       transition:all .3s;
+   }
+   #rig li:hover .rig-text {
+       transform:translateY(0px);
+       opacity:0.9;
+   }
 
-.searchbar form {
-text-align: right;
+   @media (max-width: 9000px) {
+       #rig li {
+           width:25%;
+       }
+   }
 
-}
+   @media (max-width: 700px) {
+       #rig li {
+           width:33.33%;
+       }
+   }
 
-.thumbnail {
+   @media (max-width: 550px) {
+       #rig li {
+           width:50%;
+       }
+   }
 
-    border: 0;
-  }
-
-.caption {
-background-color: lightgray;
-
-}
-
-.pricingtable tr:nth-child(odd) {
-background: #CCC;
-}
-
-.pricingtable tr:first-child {
-background:  #666666;
-}
-
-
-.modal-image img{
-width: 50%;
-
-}
-
-.modal-header h2{
-text-align: center;
-
-}
-
-.social-icons td {
-  padding:10px;
-}
-
-.pricingtable td, th {
-  text-align: center;
-}
-
-.imgheader img {
-
-  max-height: 250px;
-}
-
-.modal-body li {
-list-style-type: circle;
-
-}
-
-.footercenter {
-text-align: center;}
-
-.footercenter img a{
-padding-bottom: 5px}
-
-.centered {
-  padding: 0 25px 0 25px;
-}
-
-@media (min-width: 768px){
-.modal-dialog {
-    width: 90%;
-    margin: auto;
-  }}
-
-.trcolor th{
-color: #FFFFFF;
-
-  }
-
-.navbar-brand {
-      padding: 0;
-
-.back{
-          height: 200px;
-          background: red; /* For browsers that do not support gradients */
-          background: -webkit-linear-gradient(red, yellow); /* For Safari 5.1 to 6.0 */
-          background: -o-linear-gradient(red, yellow); /* For Opera 11.1 to 12.0 */
-          background: -moz-linear-gradient(red, yellow); /* For Firefox 3.6 to 15 */
-          background: linear-gradient(red, yellow); /* Standard syntax (must be last) */
-      }
-
-.list-group-image img {
-
-  min-height: inherit;;
-}
-
-.carousel img {
-max-height: 200px;
-
-}
+   .navbar-brand {
+   padding: 0;
