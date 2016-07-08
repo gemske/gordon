@@ -36,6 +36,7 @@
             position: relative;
             height: 100%;
             width: 100%;
+            max-width: 600px;
             padding: 5px 0 10px 0;
         }
         .cert img.center {
@@ -57,7 +58,7 @@
             border: 0;
         }
         .caption {
-            background-color: lightgray;
+            background-color: #FFFFFF;
         }
         .pricingtable tr:nth-child(odd) {
             background: #CCC;
@@ -94,7 +95,7 @@
         }
         @media (min-width: 768px) {
             .modal-dialog {
-                width: 90%;
+                width: 73%;
                 margin: auto;
             }
         }
