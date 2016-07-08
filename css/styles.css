@@ -102,7 +102,8 @@ text-align: center;
 }
 
 .imgheader img {
-  width:100%;
+
+  max-height: 250px;
 }
 
 .modal-body li {
@@ -146,4 +147,9 @@ color: #FFFFFF;
 .list-group-image img {
 
   min-height: inherit;;
+}
+
+.carousel img {
+max-height: 200px;
+
 }
