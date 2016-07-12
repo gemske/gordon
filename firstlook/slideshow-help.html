@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Responsive Slideshow Addon</title>
+<meta charset="UTF-8">
+
+<style type="text/css">
+
+body 	{
+	margin: 0;
+	padding: 0;
+	border: #FFFFFF 0px solid;
+	}
+
+
+a:link		{ color: #6633FF; text-decoration: none; }
+
+a:visited	{ color: #6633FF; text-decoration: none; }
+
+a:active	{ color: #999900; text-decoration: none; }
+
+a:hover		{ color: #669900; text-decoration: none; }
+
+a:link.homelink		{ color: #FFFFFF; font: 12px arial, sans-serif; font-weight: bold; font-style: italic; }
+
+a:visited.homelink	{ color: #FFFFFF; font: 12px arial, sans-serif; font-weight: bold; font-style: italic; }
+
+table 		{ color: #333333; font: 13px arial, sans-serif; font-weight: normal; }
+
+.hilite		{ color: #990000; font-weight: bold; }
+
+.title 		{ color: #000000; font: 15px arial, sans-serif; font-weight: bold; }
+
+.largetitle	{ color: #000000; font: 20px arial, sans-serif; font-weight: normal; }
+
+.subtitle 	{ color: #000000; font: 14px arial, sans-serif; font-weight: bold; }
+
+.alogo		{ color: #FFFFFF; font: 14px arial, sans-serif; font-weight: bold; font-style: italic; }
+
+.header		{ background-color: #1D59EB; border-bottom: #000000 1px solid; width: 100%; }
+
+table.header td	{ padding: 20px; }
+
+.maintable	{ width: 750px; }
+
+.maintableleft	{ width: 150px; padding: 8px; }
+
+.maintableright	{ padding: 8px; }
+
+table, tr, td	 { border-collapse:collapse; border-spacing: 0; margin: 0; padding: 0; border: 0; }
+
+.center-div	 { margin-left: auto; margin-right: auto; }
+
+.centeralign	 { vertical-align: top; text-align: center; }
+
+.leftalign	 { vertical-align: top; text-align: left; }
+
+.rightalign	 { vertical-align: middle; text-align: right; }
+
+img		 { border: 0; }
+
+.formmargin	 { margin: 0px; }
+
+
+
+.selectcopy {
+color: #006A6A;
+background-color: #D8FEFA;
+border: 1px solid #009999;
+width: 225px;
+font: 11px verdana, arial, sans-serif;
+font-weight: normal;
+margin-bottom: 4px; }
+.textareacode {
+font: 11px arial, sans-serif;
+text-align: left;
+WIDTH: 550px;
+background-color:#F0F0F0;
+BORDER: #000000 1px solid; }
+
+</style>
+
+
+
+<script type="text/javascript">
+<!--
+function copyit(theField) {
+var tempval=eval("document."+theField)
+tempval.focus()
+tempval.select()
+therange=tempval.createTextRange()
+therange.execCommand("Copy")
+}
+//-- END -->
+</script>
+
+
+</head>
+
+<body>
+
+<table class="header"><tr><td class="leftalign">
+<a href="http://allwebcodesign.com/" class="homelink"><span class="alogo">Allwebco Design Corporation - Add-On</span></a><br>
+</td><td class="rightalign">
+<a href="http://allwebcodesign.com/" class="homelink">Home</a><br>
+</td></tr></table>
+
+
+<script type="text/javascript" src="http://allwebcodesign.com/setup/templatehelptop.js"></script>
+
+
+<br><br>
+
+<!-- MAIN TABLE -->
+<table class="center-div maintable"><tr><td class="leftalign maintableleft">
+
+<br>
+
+[ <a href="slideshow-example.htm">View Slideshow</a> ]<br>
+
+<br>
+
+[ <a href="http://allwebcodesign.com">Allwebco Design</a> ]<br>
+
+[ <a href="http://allwebco.com">Allwebco Hosting</a> ]<br>
+
+<br><br>
+
+<script type="text/javascript" src="http://allwebcodesign.com/setup/templatehelp.js"></script>
+
+<br>
+
+</td><td class="leftalign maintableright">
+
+
+<span class="largetitle">Responsive Slideshow Addon<br></span>
+This script is provided free for any type of website project. Support is not included.
+
+
+<br><br>
+
+<a href="http://www.allwebco-templates.com/support/S_slideshow_new.htm">View support for this addon</a>
+
+<br><br><br>
+
+<span class="title">STEP 1.) Copy Files</span><br>
+Copy the "slideshow-addon" folder from this zip file into your website folder. Copy the 2 html pages into your folder. Open the "slideshow-help.html".
+
+<br><br><br>
+
+<span class="title">STEP 2.) Add Code to Webpage Head Section</span><br>
+Copy and paste the following code into the "head" of your existing webpage that you want the slideshow on. Put the code just before the &lt;/head&gt; near the top of the page. Make backups of your webpages before you start.
+
+<br><br>
+
+<form name="selecting1" class="formmargin">
+<input onclick="copyit('selecting1.copyselect1')" type="button" value="Click to select all (also copies in IE)" name="copybutton" class="selectcopy"><br>
+<textarea name="copyselect1" rows="3" cols="55" class="textareacode">
+&lt;link rel="stylesheet" href="slideshow-addon/slideshow-addon.css" type="text/css"&gt;
+&lt;script type="text/javascript" src="slideshow-addon/slideshow-addon.js"&gt;&lt;/script&gt;
+</textarea>
+</form>
+
+<br><br>
+
+<span class="title">STEP 3.) Add Slideshow Code</span><br>
+
+View the source code of the <a href="slideshow-example.htm">slideshow-example.htm</a>. Select and copy the code between the notes: "START SLIDESHOW" and "END SLIDESHOW". Paste the code into your HTML page in the content area where you want the slideshow to appear.
+
+<br><br><br>
+
+<span class="title">STEP 4.) Test</span><br>
+
+Open your HTML page and test the slideshow. If it's not working review the above steps and make sure you have copied over all files form the zip file.
+
+<br><br><br>
+
+<span class="title">STEP 5.) Replace Images</span><br>
+Replace the .jpg images in the "slideshow-addon" folder with your slideshow images.
+
+
+<br><br><br>
+
+<span class="title">Options</span><br>
+
+You can add more slides, change colors and set the AutoPlay speed.
+
+<ul>
+
+<li> Copy and paste the bottom image line (slide-6.jpg) in the HTML page to add another slide.
+
+<li> Edit the "var rotate_delay = 3000;" in the "slideshow-addon.js" to change the speed.
+
+<li> Edit the "slideshow-addon.css" to change button colors and set the slide image border.
+
+
+</ul>
+
+<br><br><br><br><br>
+
+Best of luck with your new add-on and your website!<br>
+~Allwebco Design~<br>
+
+<br><br>
+
+<span class="copyright">
+COPYRIGHT &copy; Allwebco Design Corporation | <a href="http://www.allwebco-templates.com/support/terms-of-use.htm">Terms of Use</a><br>
+Unauthorized use or sale of this script, images or any files included in this download is strictly prohibited by law. By downloading this script you are authorized to use this on any website, business or personal. You are also authorized to modify all included files for this use.
+
+<br><br>
+
+Purchaser is authorized to use any and all files included in the download on any type of website project.
+
+<br><br>
+
+</span>
+
+
+
+
+
+</td></tr></table>
+<!-- MAIN TABLE -->
+
+
+<br>
+
+
+
+
+
+
+</body></html>

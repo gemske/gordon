@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<title>W3.CSS</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="../css/styles.css">
+<link rel="stylesheet" type="text/css" href="../css/productgrid.css">
+<link rel="stylesheet" type="text/css" href="../css/phone.css">
+<link href="https://fonts.googleapis.com/css?family=Play" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Bungee+Shade" rel="stylesheet">
+
+    .footer {
+        margin: 17px 0px 21px;
+        padding: 11px 0px;
+        width: 980px;
+        height: 95px;
+        border-top: 1px solid #CCC;
+        border-bottom: 1px solid #CCC;
+        color: #BCB3AE;
+        font-size: 11px;
+        line-height: 15px;
+    }
+
+    .firstlookheader {
+        font-size: 75px;
+        text-align: center;
+        padding: 20px 0 0 0;
+    }
+    .carousel-inner img{
+      width: auto;
+      height: auto;
+      max-width: inherit;
+      max-height: inherit;
+
+    }
+
+    h2 {}
+</style>
+<body>
+
+<h2 class="w3-center">Millipede</h2>
+
+<div class="w3-content w3-section" style="max-height:100%">
+  <img class="mySlides" src="../imgs/millipede/GI_Millipede_34.jpg" style="width:100%">
+  <img class="mySlides" src="../imgs/millipede/GI_Millipede_35.jpg" style="width:100%">
+  <img class="mySlides" src="../imgs/millipede/GI_Millipede_22.jpg" style="width:100%">
+  <img class="mySlides" src="../imgs/millipede/GI_Millipede_25.jpg" style="width:100%">
+  <img class="mySlides" src="../imgs/millipede/GI_Millipede_18.jpg" style="width:100%">
+  <img class="mySlides" src="../imgs/millipede/GI_Millipede_19.jpg" style="width:100%">
+  <img class="mySlides" src="../imgs/millipede/GI_Millipede_17.jpg" style="width:100%">
+  <img class="mySlides" src="../imgs/millipede/GI_Millipede_20.jpg" style="width:100%">
+  <img class="mySlides" src="../imgs/millipede/GI_Millipede_05.jpg" style="width:100%">
+</div>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}
+    x[myIndex-1].style.display = "block";
+    setTimeout(carousel, 7500); // Change image every 2 seconds
+}
+</script>
+
+</body>
+</html>
