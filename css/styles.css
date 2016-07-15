@@ -1,4 +1,4 @@
-        .chair-selector> ul> a> img {
+            .chair-selector> ul> a> img {
             width: 30%;
             height: auto;
         }
@@ -94,7 +94,8 @@
         }
         @media (min-width: 768px) {
             .modal-dialog {
-                width: 73%;
+                width: 85%;
+                height: 95%;
                 margin: auto;
             }
         }
@@ -224,8 +225,24 @@
             margin: 0 auto;
             display: block;
         }
-
         .linearpic {
-          width:100%;
-          height:auto;
+            width: 100%;
+            height: auto;
         }
+        nav {
+            display: inline;
+        }
+        .navbar {
+            border: 0px;
+        }
+        .container {
+            width: 90%;
+            margin-top: 10px;
+        }
+        @media (min-width: 1200px) {
+            .container {
+                width: 80%;
+            }
+
+          }
+        
