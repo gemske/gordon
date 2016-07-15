@@ -1,248 +1,269 @@
             .chair-selector> ul> a> img {
-            width: 30%;
-            height: auto;
-        }
-        ul {
-            list-style: none;
-        }
-        .scroll {
-            height: 650px;
-            overflow-y: scroll;
-        }
-        .moreinfo {
-            align-content: right;
-        }
-        .imageheader img {
-            width: 100%;
-            height: auto;
-            padding: 30px 0 30px 0;
-        }
-        .justify {
-            text-align: justify;
-        }
-        .producttitle {
-            text-align: center;
-            font-stretch: expanded;
-            padding: 5px 0 10px 0;
-        }
-        body {
-            font-family: 'Play', sans-serif;
-            font-size: 16px;
-        }
-        .description-header {
-            font-weight: 200;
-        }
-        .pricingtable {
-            position: relative;
-            height: 100%;
-            width: 100%;
-            padding: 5px 0 10px 0;
-        }
-        .cert img.center {
-            display: block;
-            margin: 0 auto;
-        }
-        .cert {
-            padding: 10px 0 0 0;
-        }
-        .modal-image {
-            position: relative;
-            height: 100%;
-            width: 100%;
-        }
-        .searchbar form {
-            text-align: right;
-        }
-        .thumbnail {
-            border: 0;
-        }
-        .caption {
-            background-color: #FFFFFF;
-        }
-        .pricingtable tr:nth-child(odd) {
-            background: #CCC;
-        }
-        .pricingtable tr:first-child {
-            background: #666666;
-        }
-        .modal-image img {
-            width: 50%;
-        }
-        .modal-header h2 {
-            text-align: center;
-        }
-        .social-icons td {
-            padding: 10px;
-        }
-        .pricingtable td, th {
-            text-align: center;
-        }
-        .imgheader img {
-            max-height: 250px;
-        }
-        .modal-body li {
-            list-style-type: circle;
-        }
-        .footercenter {
-            text-align: center;
-        }
-        .footercenter img a {
-            padding-bottom: 5px
-        }
-        .centered {
-            padding: 0 25px 0 25px;
-        }
-        @media (min-width: 768px) {
-            .modal-dialog {
-                width: 85%;
-                height: 95%;
-                margin: auto;
+                width: 30%;
+                height: auto;
             }
-        }
-        .trcolor th {
-            color: #FFFFFF;
-        }
-        .well {
-            min-height: 20px;
-            padding: 19px;
-            margin-bottom: 20px;
-            background-color: #FFFFFF;
-            border: 0px solid #FFFFFF;
-            box-shadow: 0;
-        }
-        .rig-text {
-            font-size: 14px;
-        }
-        #rig {
-            max-width: 900px;
-            margin: 0 auto;
-            /*center aligned*/
-            padding: 0;
-            font-size: 0;
-            /* Remember to change it back to normal font size if have captions */
-            list-style: none;
-            background-color: #000;
-        }
-        #rig li {
-            display: inline-block;
-            *display: inline;
-            /*for IE6 - IE7*/
-            width: 25%;
-            vertical-align: middle;
-            box-sizing: border-box;
-            margin: 0;
-            padding: 0;
-        }
-        /* The wrapper for each item */
-
-        .rig-cell {
-            /*margin:12px;
-       box-shadow:0 0 6px rgba(0,0,0,0.3);*/
-            display: block;
-            position: relative;
-            overflow: hidden;
-        }
-        /* If have the image layer */
-
-        .rig-img {
-            display: block;
-            width: 100%;
-            height: auto;
-            border: none;
-            transform: scale(1);
-            transition: all 1s;
-        }
-        #rig li:hover .rig-img {
-            transform: scale(1.05);
-        }
-        /* If have the overlay layer */
-
-        .rig-overlay {
-            position: absolute;
-            display: block;
-            top: 0;
-            left: 0;
-            bottom: 0;
-            right: 0;
-            margin: auto;
-            background: #3DC0F1 url(img/link.png) no-repeat center 20%;
-            background-size: 50px 50px;
-            opacity: 0;
-            filter: alpha(opacity=0);
-            /*For IE6 - IE8*/
-            transition: all 0.6s;
-        }
-        #rig li:hover .rig-overlay {
-            opacity: 0.8;
-        }
-        /* If have captions */
-
-        .rig-text {
-            display: block;
-            padding: 0 30px;
-            box-sizing: border-box;
-            position: absolute;
-            left: 0;
-            width: 100%;
-            text-align: center;
-            text-transform: capitalize;
-            font-size: 18px;
-            font-weight: bold;
-            font-family: 'Oswald', sans-serif;
-            font-weight: normal!important;
-            top: 40%;
-            color: white;
-            opacity: 0;
-            filter: alpha(opacity=0);
-            /*For older IE*/
-            transform: translateY(-20px);
-            transition: all .3s;
-        }
-        #rig li:hover .rig-text {
-            transform: translateY(0px);
-            opacity: 0.9;
-        }
-        @media (max-width: 9000px) {
-            #rig li {
-                width: 25%;
+            ul {
+                list-style: none;
             }
-        }
-        @media (max-width: 700px) {
-            #rig li {
-                width: 33.33%;
+            .scroll {
+                height: 650px;
+                overflow-y: scroll;
             }
-        }
-        @media (max-width: 550px) {
-            #rig li {
+            .moreinfo {
+                align-content: right;
+            }
+            .imageheader img {
+                width: 100%;
+                height: auto;
+                padding: 30px 0 30px 0;
+            }
+            .justify {
+                text-align: justify;
+            }
+            .producttitle {
+                text-align: center;
+                font-stretch: expanded;
+                padding: 15px 0 10px 0;
+                font-weight: lighter;
+                font-size: 32px;
+            }
+            body {
+                font-family: 'Play', sans-serif;
+                font-size: 16px;
+            }
+            .description-header {
+                font-weight: 200;
+                font-size: 15px;
+                padding: 10px 0 10px 0;
+            }
+            .pricingtable {
+                position: relative;
+                height: 100%;
+                width: 100%;
+                padding: 5px 0 10px 0;
+            }
+            .cert img.center {
+                display: block;
+                margin: 0 auto;
+            }
+            .cert {
+                padding: 10px 0 0 0;
+            }
+            .modal-image {
+                position: relative;
+                height: 100%;
+                width: 100%;
+            }
+            .searchbar form {
+                text-align: right;
+            }
+            .thumbnail {
+                border: 0;
+            }
+            .caption {
+                background-color: #FFFFFF;
+            }
+            .pricingtable tr:nth-child(odd) {
+                background: #CCC;
+            }
+            .pricingtable tr:first-child {
+                background: #666666;
+            }
+            .modal-image img {
                 width: 50%;
             }
-        }
-        .navbar-brand {
-            padding: 0;
-        }
-        .designerpic {
-            width: 70%;
-            margin: 0 auto;
-            display: block;
-        }
-        .linearpic {
-            width: 100%;
-            height: auto;
-        }
-        nav {
-            display: inline;
-        }
-        .navbar {
-            border: 0px;
-        }
-        .container {
-            width: 90%;
-            margin-top: 10px;
-        }
-        @media (min-width: 1200px) {
-            .container {
-                width: 80%;
+            .modal-header h2 {
+                text-align: center;
             }
+            .social-icons td {
+                padding: 10px;
+            }
+            .pricingtable td, th {
+                text-align: center;
+            }
+            .imgheader img {
+                max-height: 250px;
+            }
+            .modal-body li {
+                list-style-type: circle;
+            }
+            .footer {
+                text-align: center;
+                width: 95%;
+            }
+            .footer img a {
+                padding-bottom: 5px
+            }
+            .centered {
+                padding: 0 25px 0 25px;
+            }
+            @media (min-width: 768px) {
+                .modal-dialog {
+                    width: 85%;
+                    height: 95%;
+                    margin: auto;
+                }
+            }
+            .trcolor th {
+                color: #FFFFFF;
+            }
+            .well {
+                min-height: 20px;
+                padding: 19px;
+                margin-bottom: 20px;
+                background-color: #FFFFFF;
+                border: 0px solid #FFFFFF;
+                box-shadow: 0;
+            }
+            .rig-text {
+                font-size: 14px;
+            }
+            #rig {
+                max-width: 900px;
+                margin: 0 auto;
+                /*center aligned*/
+                padding: 0;
+                font-size: 0;
+                /* Remember to change it back to normal font size if have captions */
+                list-style: none;
+                background-color: #000;
+            }
+            #rig li {
+                display: inline-block;
+                *display: inline;
+                /*for IE6 - IE7*/
+                width: 25%;
+                vertical-align: middle;
+                box-sizing: border-box;
+                margin: 0;
+                padding: 0;
+            }
+            /* The wrapper for each item */
 
-          }
-        
+            .rig-cell {
+                /*margin:12px;
+       box-shadow:0 0 6px rgba(0,0,0,0.3);*/
+                display: block;
+                position: relative;
+                overflow: hidden;
+            }
+            /* If have the image layer */
+
+            .rig-img {
+                display: block;
+                width: 100%;
+                height: auto;
+                border: none;
+                transform: scale(1);
+                transition: all 1s;
+            }
+            #rig li:hover .rig-img {
+                transform: scale(1.05);
+            }
+            /* If have the overlay layer */
+
+            .rig-overlay {
+                position: absolute;
+                display: block;
+                top: 0;
+                left: 0;
+                bottom: 0;
+                right: 0;
+                margin: auto;
+                background: #3DC0F1 url(img/link.png) no-repeat center 20%;
+                background-size: 50px 50px;
+                opacity: 0;
+                filter: alpha(opacity=0);
+                /*For IE6 - IE8*/
+                transition: all 0.6s;
+            }
+            #rig li:hover .rig-overlay {
+                opacity: 0.8;
+            }
+            /* If have captions */
+
+            .rig-text {
+                display: block;
+                padding: 0 30px;
+                box-sizing: border-box;
+                position: absolute;
+                left: 0;
+                width: 100%;
+                text-align: center;
+                text-transform: capitalize;
+                font-size: 18px;
+                font-weight: bold;
+                font-family: 'Oswald', sans-serif;
+                font-weight: normal!important;
+                top: 40%;
+                color: white;
+                opacity: 0;
+                filter: alpha(opacity=0);
+                /*For older IE*/
+                transform: translateY(-20px);
+                transition: all .3s;
+            }
+            #rig li:hover .rig-text {
+                transform: translateY(0px);
+                opacity: 0.9;
+            }
+            @media (max-width: 9000px) {
+                #rig li {
+                    width: 25%;
+                }
+            }
+            @media (max-width: 700px) {
+                #rig li {
+                    width: 33.33%;
+                }
+            }
+            @media (max-width: 550px) {
+                #rig li {
+                    width: 50%;
+                }
+            }
+            .navbar-brand {
+                padding: 0;
+            }
+            .designerpic {
+                width: 70%;
+                margin: 0 auto;
+                display: block;
+            }
+            .linearpic {
+                width: 100%;
+                height: auto;
+            }
+            nav {
+                display: inline;
+            }
+            .navbar {
+                border: 20px;
+                
+                font-size: 16px;
+            }
+            .container {
+                width: 100%;
+                margin-top: 10px;
+            }
+            .contentshrink {
+                width: 80%;
+                margin: 0 auto;
+            }
+            .navbar-nav {
+                padding: 0 0 0 15px;
+            }
+            @media (max-width: 768px) {
+                .form-group {
+                    width: 200px;
+                }
+            }
+            .footer {
+                margin: 17px 0px 21px;
+                padding: 11px 0px;
+                width: 100%;
+                height: 95px;
+                color: #BCB3AE;
+                font-size: 11px;
+                line-height: 15px;
+            }
