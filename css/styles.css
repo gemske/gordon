@@ -239,7 +239,7 @@
             }
             .navbar {
                 border: 20px;
-                
+
                 font-size: 16px;
             }
             .container {
@@ -257,6 +257,7 @@
                 .form-group {
                     width: 200px;
                 }
+              
             }
             .footer {
                 margin: 17px 0px 21px;
