@@ -28,7 +28,7 @@
                 font-size: 32px;
             }
             body {
-                font-family: 'Play', sans-serif;
+              font-family: 'Ubuntu Condensed', sans-serif;
                 font-size: 16px;
             }
             .description-header {
@@ -239,7 +239,6 @@
             }
             .navbar {
                 border: 20px;
-
                 font-size: 16px;
             }
             .container {
@@ -257,7 +256,6 @@
                 .form-group {
                     width: 200px;
                 }
-              
             }
             .footer {
                 margin: 17px 0px 21px;
@@ -268,3 +266,20 @@
                 font-size: 11px;
                 line-height: 15px;
             }
+            .navbar-fixed-top {
+                padding: 5px 0 5px 0;
+            }
+            .navbar-default {
+                background-color: #EEEEEE;
+                border-bottom-style: solid;
+                border-width: thin;
+                border-color: #CCCCCC;
+            }
+            h1 {
+              font-family: 'Orbitron', sans-serif;
+            }
+
+            .description-header {
+
+    font-size: 16px;
+  }
