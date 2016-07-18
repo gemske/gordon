@@ -28,7 +28,7 @@
                 font-size: 32px;
             }
             body {
-              font-family: 'Ubuntu Condensed', sans-serif;
+                font-family: 'Ubuntu Condensed', sans-serif;
                 font-size: 16px;
             }
             .description-header {
@@ -270,16 +270,17 @@
                 padding: 5px 0 5px 0;
             }
             .navbar-default {
-                background-color: #EEEEEE;
+                background-color: #F8F8F8;
                 border-bottom-style: solid;
                 border-width: thin;
                 border-color: #CCCCCC;
             }
-            h1 {
-              font-family: 'Orbitron', sans-serif;
+            .navbar-default li {
+                font-size: 18px;
             }
-
+            h1 {
+                font-family: 'Orbitron', sans-serif;
+            }
             .description-header {
-
-    font-size: 16px;
-  }
+                font-size: 16px;
+            }
